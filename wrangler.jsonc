@@ -4,7 +4,7 @@
  */
 {
 	"$schema": "node_modules/wrangler/config-schema.json",
-	"name": "03-digital-pp",
+	"name": "04-com-patraldo",
 	"main": ".svelte-kit/cloudflare/_worker.js",
 	"compatibility_date": "2025-08-05",
 	"assets": {
@@ -15,15 +15,15 @@
 		"enabled": true
 	},
 	"vars": {
-                "MAILGUN_DOMAIN": "pinchepoutine.digital",
-	       	"CONTACT_EMAIL": "contact@pinchepoutine.digital",
-	       	"MAILGUN_FROM_EMAIL": "noreply@pinchepoutine.digital"
+                "MAILGUN_DOMAIN": "patraldo.com",
+	       	"CONTACT_EMAIL": "contact@patraldo.com",
+	       	"MAILGUN_FROM_EMAIL": "noreply@patraldo.com"
         },
         "d1_databases": [
                 {
                         "binding": "DB",
-                        "database_name": "subscribers-db",
-                        "database_id": "215a6b19-a550-4d91-acd9-dcf756dc9438"
+                        "database_name": "subscribers-db2",
+                        "database_id": "b6b5e993-f16e-4346-83b2-babfd327a023"
                 }
         ],
 	"triggers": {
